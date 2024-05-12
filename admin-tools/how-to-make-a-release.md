@@ -47,25 +47,15 @@ Test all python versions:
 
 #  Tag release in git:
 
-Goto https://github.com/rocky/pycdio/releases
+Goto https://github.com/arcctgx/pycdio/releases
 
 # Upload single package and look at Rst Formating
 
-    $ twine upload dist/pycdio-${VERSION}-py3.3*.egg
+    $ twine upload dist/arcctgx-pycdio-${VERSION}-py3.3*.egg
 
 # Upload rest of versions
 
-    $ twine upload dist/pycdio-${VERSION}*
-
-
-# Get onto ftp.gnu.org. I use my perl program
-
-Use `gnupload` from the `automake` distribution.
-
-```
-    $ cd dist
-	$ ~/bin/gnupload  --to ftp.gnu.org:libcdio pycdio-${VERSION}.tar.*  # (Use "is" password)
-```
+    $ twine upload dist/arcctgx-pycdio-${VERSION}*
 
 #  Bump version in __pkginfo__.py.
 

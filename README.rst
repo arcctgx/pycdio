@@ -4,17 +4,17 @@
 Introduction
 ==============
 
-pycdio is a Python interface to the *libcdio*, the CD Input and
-Control library http://www.gnu.org/software/libcdio
-
-
-You can get the source at the same place as libcdio:
-ftp://ftp.gnu.org:/pub/gnu/libcdio/
+arcctgx-pycdio is a fork of pycdio: a Python interface to the *libcdio*,
+the CD Input and Control library http://www.gnu.org/software/libcdio.
 
 The *pycdio* and *libcdio* libraries encapsulate CD-ROM reading and
 control. Python programs wishing to be oblivious of the OS- and
 device-dependent properties of a CD-ROM can use this library.
 
+This fork makes no functional changes to pycdio, and only provides Python
+wheels to make the installation convenient for the end user. Upstream only
+provides a source distribution which requires the end user to set up the
+environment to build the extension from source.
 
 Sample Usage
 ============
@@ -149,20 +149,8 @@ Standalone documentation is missing although many of the methods,
 classes and functions have some document strings. See also the
 programs in the example directory.
 
-pycdio for enterprise
-=====================
-
-Available as part of the Tidelift Subscription.
-
-The maintainers of pycdio and thousands of other packages are working with Tidelift to deliver commercial support and maintenance for the open source dependencies you use to build your applications. Save time, reduce risk, and improve code health, while paying the maintainers of the exact dependencies you use. `Learn more. <https://tidelift.com/subscription/pkg/pypi-pycdio?utm_source=pypi-pycdio&utm_medium=referral&utm_campaign=readme>`_
-
-Security contact information
-============================
-
-To report a security vulnerability, please use the `Tidelift security contact <https://tidelift.com/security>`_ and Tidelift will coordinate the fix and disclosure.
-
-.. |Package Status 1| image:: https://repology.org/badge/tiny-repos/pycdio.svg
-		 :target: https://repology.org/project/pycdio/versions
-.. |Package Status 2| image:: https://repology.org/badge/tiny-repos/python:pycdio.svg
-		 :target: https://repology.org/project/pycdio/versions
-.. |Pypi Installs| image:: https://pepy.tech/badge/pycdio
+.. |Package Status 1| image:: https://repology.org/badge/tiny-repos/arcctgx-pycdio.svg
+		 :target: https://repology.org/project/arcctgx-pycdio/versions
+.. |Package Status 2| image:: https://repology.org/badge/tiny-repos/python:arcctgx-pycdio.svg
+		 :target: https://repology.org/project/arcctgx-pycdio/versions
+.. |Pypi Installs| image:: https://pepy.tech/badge/arcctgx-pycdio

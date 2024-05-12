@@ -14,7 +14,7 @@
 #  along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """pycdio packaging information"""
 
-modname = 'pycdio'
+modname = 'arcctgx-pycdio'
 
 # VERSION.py sets variable VERSION.
 import os.path
@@ -27,12 +27,10 @@ copyright = '''Copyright (C) 2006, 2008-2010, 2013, 2018 Rocky Bernstein <rocky@
 
 short_desc = 'Python OO interface to libcdio (CD Input and Control library)'
 
-author = "Rocky Bernstein"
-author_email = "rocky@gnu.org"
+author = "arcctgx"
+author_email = "arcctgx@o2.pl"
 
-web = 'http://www.gnu.org/software/libcdio'
-ftp = "ftp://ftp.gnu.org/pub/gnu/libcdio/%s-%s.tar.gz" % (modname, VERSION)
-mailinglist = "mailto:libcdio-pycdio-devel@gnu.org"
+web = 'https://github.com/arcctgx/pycdio'
 
 classifiers =  ['Development Status :: 5 - Production/Stable',
                 'Intended Audience :: Developers',
